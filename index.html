@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelajah Budaya Bali - Pesona Pulau Andita</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="logo">BALI<span>MELEBIHI JAWA</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#search-area">Jelajah</a></li>
+            <li><a href="#jurnal">Jurnal</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+        </ul>
+        <div class="menu-toggle">☰</div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1555400038-63f5ba517a47?q=80&w=2070&auto=format&fit=crop');"></div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?q=80&w=2070&auto=format&fit=crop');"></div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=1971&auto=format&fit=crop');"></div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content" id="heroText">
+            <span class="hero-category">Warisan Nusantara</span>
+            <h1 id="heroTitle">Keanggunan Tari Bali</h1>
+            <p id="heroDesc">Menyelami filosofi dan gerakan magis yang telah diwariskan selama berabad-abad.</p>
+            <a href="#search-area" class="btn-vibrant">Mulai Eksplorasi</a>
+        </div>
+    </header>
+
+    <section class="intro reveal-on-scroll">
+        <h2>Pesona Pulau Dewata</h2>
+        <div class="separator"></div>
+        <p>Bali bukan sekadar destinasi, melainkan sebuah pengalaman spiritual. Temukan ragam cerita dari sudut pandang sejarah, rasa kuliner yang otentik, hingga gerak tari yang memukau dunia.</p>
+    </section>
+
+    <section id="search-area" class="section-container reveal-on-scroll">
+        <div class="section-header-left">
+            <h3>Jelajah Budaya</h3>
+            <p>Cari dan temukan kekayaan tradisi.</p>
+        </div>
+        
+        <div class="search-wrapper">
+            <input type="text" id="searchInput" placeholder="Cari tari, kuliner, atau pura...">
+            <button id="searchBtn">🔍</button>
+        </div>
+
+        <div class="grid-container" id="cardContainer">
+            </div>
+        
+        <div id="noResult" style="display:none; text-align:center; padding: 50px;">
+            <h3>Konten tidak ditemukan</h3>
+            <p>Cobalah kata kunci seperti "Tari" atau "Sate".</p>
+        </div>
+    </section>
+
+    <section id="jurnal" class="journal-section reveal-on-scroll">
+        <div class="section-header-center">
+            <h3>Jurnal Budaya</h3>
+            <div class="separator"></div>
+        </div>
+        
+        <div class="journal-layout">
+            <div class="journal-item big">
+                <img src="TARI LEGONG.jpg" alt="Legong">
+                <div class="journal-text">
+                    <span class="tag-red">FEATURED</span>
+                    <h4>Filosofi di Balik Gerak Tari Legong</h4>
+                    <p>Mengupas makna setiap lentikan jari dan sorot mata penari keraton yang legendaris.</p>
+                    <a href="#" class="read-more">Baca Selengkapnya &rarr;</a>
+                </div>
+            </div>
+            <div class="journal-side">
+                <div class="journal-item small">
+                    <img src="NYEPI.jpg" alt="Nyepi">
+                    <div class="text-overlay">
+                        <h4>Keheningan Nyepi</h4>
+                    </div>
+                </div>
+                <div class="journal-item small">
+                    <img src="SENI UKIR BATU.jpg
+                    " alt="Ukiran">
+                    <div class="text-overlay">
+                        <h4>Seni Ukir Batu</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeri" class="gallery-section reveal-on-scroll">
+        <div class="section-header-center">
+            <h3>Galeri Visual</h3>
+            <p>Sudut pandang estetika Bali.</p>
+        </div>
+        <div class="gallery-grid">
+            <img src="SATE LILIT.jpg" alt="Sate Lilit">
+            <img src="KECAK.webp" alt="Kecak">
+            <img src="CANANG.jpg"Canang">
+            <img src="BETUTU.jpg"Betutu">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kelompok Listya XII-6 #BALIPULAUMENAWAN. Mempromosikan keindahan budaya indonesia</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
